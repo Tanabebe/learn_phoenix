@@ -1,0 +1,10 @@
+# editor
+.vscode
+
+# envroiment
+.env
+
+# postgres
+db/**
+
+.elixir_ls
