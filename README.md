@@ -3,6 +3,6 @@
 ## Usage
 
 - `.example.env` rename `.env` write your envroiment values
-- `make run-dev` docker compose
-- `make stop` docker stop
+- `make run-dev` docker compose up -d
+- `make stop` docker compose stop
 - `make open` open http://localhost:4000
