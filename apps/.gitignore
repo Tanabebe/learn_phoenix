@@ -32,3 +32,5 @@ apps-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Elixir Sample
+/lib/apps/v01/*
