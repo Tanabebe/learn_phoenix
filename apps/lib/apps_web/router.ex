@@ -15,11 +15,12 @@ defmodule AppsWeb.Router do
   # end
 
   scope "/", AppsWeb do
-    pipe_through :browser
+    pipe_through(:browser)
 
-    get "/", HomeController, :index
-    get "/hello", HelloController, :show
-    get "/hello/:name", HelloController, :show
+    get("/", HomeController, :index)
+    get("/about", HomeController, :about)
+    get("/hello", HelloController, :show)
+    get("/hello/:name", HelloController, :show)
   end
 
   # Other scopes may use custom stacks.
