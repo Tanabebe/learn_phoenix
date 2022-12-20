@@ -8,9 +8,13 @@
     <title><%= document_title(assigns) %></title>
     <link phx-track-static rel="stylesheet" href={Routes.static_path(@conn, "/assets/app.css")}/>
     <script defer phx-track-static type="text/javascript" src={Routes.static_path(@conn, "/assets/app.js")}></script>
+    <link rel="shortcut icon" type="image/x-icon" href={Routes.static_path(@conn, "/images/modest_greeter.ico")}>
+    <link rel="shortcut icon" type="image/x-icon" href={Routes.static_path(@conn, "/images/modest_greeter256.png")}>
   </head>
   <header>
-    <h1>ModestGreeter</h1>
+    <h1>
+      <%= link "ModestGreeter", to: "/" %>
+    </h1>
   </header>
   <body>
     <%= @inner_content %>

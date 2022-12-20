@@ -5,6 +5,7 @@ import "../css/app.css"
 import "../css/main.css"
 import "../css/header.css"
 import "../css/footer.css"
+import "../css/link.css"
 
 // If you want to use Phoenix channels, run `mix help phx.gen.channel`
 // to get started and then uncomment the line below.
